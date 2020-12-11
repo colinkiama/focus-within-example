@@ -1,0 +1,28 @@
+svg {
+  stroke: gray;
+  stroke-width: 1.5;
+  vertical-align: middle;
+}
+
+.field {
+  border-bottom: 1px solid gray;
+  display: inline-block;
+  padding: 0.5em 0.1em;
+}
+
+.field:focus-within {
+  border-bottom: 1px solid green;
+}
+
+.field:focus-within svg {
+  stroke: green;
+}
+
+.field:focus-within .label-content {
+  color: green;
+}
+
+input {
+  border: none;
+  outline: none;
+}
